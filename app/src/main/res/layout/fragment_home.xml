@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/carNumber"
+        android:layout_width="366dp"
+        android:layout_height="53dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:hint=" შეიყვანეთ მანქანის ნომერი"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="286dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#9070157A"
+        android:text="შექმნა"
+        android:fontFamily="sans-serif-black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carNumber"
+        app:layout_constraintVertical_bias="0.215" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
